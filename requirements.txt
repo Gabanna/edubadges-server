@@ -1,10 +1,10 @@
 # Django stuff
-Django==3.2.20
+Django==3.2.25
 semver==2.6.0
 pytz==2022.2.1
 
 # PIL support
-Pillow==9.3.0
+Pillow==10.3.0
 python-dateutil==2.8.1
 
 # reporting
@@ -45,7 +45,7 @@ django-cors-middleware==1.5.0
 django-autoslug==1.9.8
 
 # wsgiref==0.1.2 # python3 incompatible
-sqlparse==0.4.4
+sqlparse==0.5.0
 netaddr
 django-extensions==2.0.7
 
@@ -78,7 +78,7 @@ python-json-logger==0.1.2
 
 # SSL Support
 cffi==1.14.5
-cryptography==41.0.0
+cryptography==42.0.4
 enum34==1.1.6
 idna==2.5
 ipaddress==1.0.16
@@ -125,3 +125,5 @@ premailer==3.7.0
 # 2FA support
 django-otp==1.1.1
 qrcode==7.3
+jwcrypto>=1.5.6 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability

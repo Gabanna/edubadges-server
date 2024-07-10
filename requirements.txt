@@ -125,3 +125,4 @@ premailer==3.7.0
 # 2FA support
 django-otp==1.1.1
 qrcode==7.3
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability

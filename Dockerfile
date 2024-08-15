@@ -1,4 +1,4 @@
-FROM python:3.13.0a3
+FROM python:3.13.0rc1
 
 RUN useradd -m -u 1000 -s /bin/bash python \
     && mkdir /app \

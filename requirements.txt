@@ -82,7 +82,7 @@ cryptography==41.0.0
 enum34==1.1.6
 idna==2.5
 ipaddress==1.0.16
-pyasn1==0.1.9
+pyasn1==0.6.2
 pycparser==2.14
 six==1.13.0
 
@@ -113,7 +113,7 @@ git+https://github.com/edubadges/pylti1.3@master#egg=PyLTI1p3
 
 # after python3 upgrade
 social-auth-app-django==3.1.0
-urllib3==1.26.15
+urllib3==2.6.3
 
 # graphql
 graphene-django==2.15.0
